@@ -123,7 +123,7 @@ const product=[
         name : `SPEED 2.0 SNEAKER`,
         brand : `balenciaga`,
         size : [4,4.5,5,5.5,6,6.5,7,7.5,8],
-        color : ['black','while','red','blue','grey','muticolor'],
+        color : ['black','pink','red','yellow','grey'],
         gender : ['female'],
                 //male
         price : 950,
