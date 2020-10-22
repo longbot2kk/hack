@@ -7,15 +7,42 @@
     <link rel="stylesheet" href="./media/css/style.css">
 </head>
 <body>
+    <div class="container">
     <div id="menu">
         <ul>
-            <li id="itemNike"><button class="nike">Nike</button></li>
-            <li id="adidas"><a href="#">Adidas</a></li>
-            <li id="balen"><a href="#">Balenciaga</a></li>
-            <li id="vete"><a href="#">VETEMENTS</a></li>
+            <li id="trangchu"><button id="tt">Home</button></li>
+            <li id="itemNike"><button id="nike">Nike</button></li>
+            <li id="itemAdidas"><button id="adidas">Adidas</button></li>
+            <li id="itemBalen"><button id="balen">Balenciaga</button></li>
+            <li id="itemVene"><button id="vene">Vene</button></li>
         </ul>
     </div>
-    <div id="products">
+    <div class="main">
+    <div class="sidebar">
+        <div class="sidebarMenu">
+            <ul >
+                <li><a href="#">shoes</a></li>
+                <li><a href="#">acc</a></li>
+                <li><a href="#">app</a></li>
+            </ul>
+        </div>
+        <div class="sidebarFillterPrice">
+            <ul> Price
+                <li><input type="checkbox" class="kg1">25-50</li>
+                <li><input type="checkbox" class="kg2">50-100</li>
+                <li><input type="checkbox" class="kg3">100-150</li>
+                <li><input type="checkbox" class="kg4">150-200</li>
+            </ul>
+        </div>
+        <div class="sidebarFillterColor">   
+            <ul class="color"> Color
+                <li><input type="checkbox">Black</li>
+                <li><input type="checkbox">White</li>
+                <li><input type="checkbox">Red</li>
+            </ul>
+        </div>
+    </div>           
+    <div class="products" id="products">
         <!-- <div class = item>
             <div class = itemName>
                 <b>${name}</b>
@@ -28,6 +55,8 @@
             <div>${price}</div>        
         </div> -->
     </div>
+</div>
+</div>
     <script src="./media/js/data.js"></script>
     <script src="./media/js/index.js"></script>
 </body>
